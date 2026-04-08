@@ -158,4 +158,4 @@ task.spawn(function()
     end
 end)
 
-loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/Lite.lua"))()
+loadstring(game:HttpGet("https://zekehub.com/scripts/AdoptMe/MassFarm.lua"))()
