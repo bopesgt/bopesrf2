@@ -123,14 +123,14 @@
             },
         },
         Settings = {
-            AutoShowUI = false, -- Load the UI on script start (main overlay disable for less memory usage)
+            AutoShowUI = true, -- Load the UI on script start (main overlay disable for less memory usage)
             ShowOverlay = true, -- Show stats overlay (disables 3D rendering)
             ReduceGraphics = true, -- Reduce graphics quality to minimum
-            FPSCap = 0, -- FPS cap option (0 = uncapped)
+            FPSCap = 3, -- FPS cap option (0 = uncapped)
             LureId = "ice_dimension_2025_ice_soup_bait" -- what lure to use for example: "ice_dimension_2025_ice_soup_bait"
         },
         Webhook = {
-            Enabled = true, -- Send webhook notifications to Discord
+            Enabled = false, -- Send webhook notifications to Discord
             URL = "https://discord.com/api/webhooks/1324752091545341963/7NS6Cq1lOvorjx6mnE4RcS4SnOuvv45NQFufY2bOE62mi66bLi9vDxmyv71PnHhwdZAc", -- Discord webhook URL for notifications
             PetUnlock = {
                 Enabled = false, -- Send webhook when hatching/unlocking a pet
